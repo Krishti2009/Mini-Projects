@@ -17,5 +17,5 @@ class QRCodeGenerator:
         img.save(filename)
         print(f"QR is successfully generated!!")
 
-my_generator = QRCodeGenerator("https://google.com")
-my_generator.generate("google_qr.png")
+my_generator = QRCodeGenerator("https://krishti.com")
+my_generator.generate("krishti_qr.png")
